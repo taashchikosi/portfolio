@@ -26,14 +26,15 @@ export const PROJECTS: Project[] = [
     href: "/retrofitgpt",
     repo: "https://github.com/taashchikosi/Taash_Chikosi_Portfolio",
   },
-  // TODO: replace these placeholders with your next projects.
   {
-    slug: "project-two",
-    title: "Next project",
-    tagline: "Coming soon",
+    slug: "ops-sync",
+    title: "Cross-System Ops Sync",
+    tagline: "Two-way sync that provably loses nothing under chaos",
     blurb:
-      "A second build is on the way. This card is a placeholder — swap it for your next project in lib/projects.ts.",
-    tags: ["TBD"],
-    status: "planned",
+      "A reliability engine for two-way HubSpot ↔ Supabase sync: idempotent effectively-once apply, echo-loop suppression, version guard against stale overwrites, and retry → dead-letter → reconciliation so data never silently drops. Under heavy fault injection, naive direct-sync corrupts ~15% of records → 0% with the reliability layer.",
+    tags: ["FastAPI", "HubSpot", "Supabase", "Reliability", "Next.js"],
+    status: "live",
+    href: "/ops-sync",
+    repo: "https://github.com/taashchikosi/ops-sync",
   },
 ];
