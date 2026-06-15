@@ -37,4 +37,15 @@ export const PROJECTS: Project[] = [
     href: "/ops-sync",
     repo: "https://github.com/taashchikosi/ops-sync",
   },
+  {
+    slug: "portal-pilot",
+    title: "PortalPilot",
+    tagline: "Computer-use with a paper trail",
+    blurb:
+      "A legacy-portal automation agent that drives a real headless browser through portals with no API — self-heals when the page drifts, read-back-verifies every field so it can't silently corrupt a record, and treats the page as untrusted: it executes 0/20 indirect prompt-injections where a pure-vision agent executes 20/20. Self-hosted Playwright keeps all portal data on-box; every run leaves an audit trail.",
+    tags: ["Playwright", "Computer-use", "FastAPI", "Prompt-injection defense", "Next.js"],
+    status: "live",
+    href: "/portal-pilot",
+    repo: "https://github.com/taashchikosi/portal-pilot",
+  },
 ];
